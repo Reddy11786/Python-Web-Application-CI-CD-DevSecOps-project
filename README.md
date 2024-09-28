@@ -15,7 +15,27 @@ This is a Python Flask web application. The app provides system information and 
 The app has been designed with cloud native demos & containers in mind, in order to provide a real working application for deployment, something more than "hello-world" but with the minimum of pre-reqs. It is not intended as a complete example of a fully functioning architecture or complex software design.
 
 Typical uses would be deployment to Kubernetes, demos of Docker, CI/CD (build pipelines are provided), deployment to cloud (Azure) monitoring, auto-scaling
+## CICD Pipeline steps
+Steps:-
+Step 1 — Create an Ubuntu T2 Large Instance
 
+Step 2 — Install Jenkins, Docker and Trivy. Create a Sonarqube Container using Docker.
+
+Step 3 — Install Plugins like JDK, Sonarqube Scanner, OWASP Dependency Check,
+
+Step 4 — Create a Pipeline Project in Jenkins using a Declarative Pipeline
+
+Step 5 — Configure Sonar Server in Manage Jenkins
+
+Step 6 — we have to install and make the package
+
+Step 7 — Docker Image Build and Push
+
+Step 8 — Deploy the image using Docker
+
+Step 9 — Access the Real World Application
+
+Step 10 — Terminate the AWS EC2 Instance
 ## Screenshot
 
 ![screen](https://user-images.githubusercontent.com/14982936/30533171-db17fccc-9c4f-11e7-8862-eb8c148fedea.png)
